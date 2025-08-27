@@ -7,16 +7,19 @@
 	const projects = data.projects;
 </script>
 
+<svelte:head>
+	<title>home</title>
+</svelte:head>
+
 <Hero gradient="default">
 	<section id="introduction">
 		<h1>heya, i'm <span id="name">mimi</span>!</h1>
 		<p>tinkerer, queer person and aspiring software developer :3</p>
 	</section>
 	<section id="links">
-		<a href="/">&gt contact me!</a>
-		<a href="/">&gt github</a>
-		<a href="/">&gt my projects</a>
-		<a href="/">&gt fediverse</a>
+		<a href="mailto:contact@bnuuy.garden">&gt contact me!</a>
+		<a href="https://github.com/mimibun">&gt github</a>
+		<a href="https://blahaj.zone/@mimi">&gt fediverse</a>
 	</section>
 </Hero>
 

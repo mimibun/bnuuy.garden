@@ -1,8 +1,4 @@
 <script lang="ts">
-	import dayjs from 'dayjs';
-	import customParseFormat from 'dayjs/plugin/relativeTime';
-	import { toUnixDate } from '$lib/utils';
-
 	import Hero from '$lib/layout/Hero.svelte';
 	import PostItem from '$lib/components/blogpostListItem.svelte';
 
@@ -16,6 +12,10 @@
 		}
 	}; */
 </script>
+
+<svelte:head>
+	<title>blog</title>
+</svelte:head>
 
 <Hero gradient="blog">
 	<h1>my blog</h1>
@@ -34,9 +34,17 @@
 
 <style lang="scss">
 	div.blogposts {
+		display: flex;
+		flex-direction: column;
 		width: 100%;
 		gap: 1rem;
 
 		padding: 0 1rem;
+
+		h2 {
+			align-self: center;
+
+			margin-top: 1rem;
+		}
 	}
 </style>

@@ -4,8 +4,16 @@
 <article>
 	<h1>oepsie woepsie! owo</h1>
 	<p>the page is brokki wukkie ow koud not be foundie woundi owo</p>
-	<p>pwease trei nother pagie ow contact mimi so she do the fixie :333</p>
+	<p>
+		pwease trei nother pagie ow <a href="https://github.com/mimibun/bnuuy.garden/issues/new"
+			>contact mimi</a
+		> so she do the fixie :333
+	</p>
 </article>
+
+<svelte:head>
+	<title>error :c</title>
+</svelte:head>
 
 <style lang="scss">
 	@use '../scss/defaults.scss' as *;
@@ -24,6 +32,10 @@
 
 		p {
 			color: $overlay0;
+		}
+
+		a {
+			text-decoration: none;
 		}
 	}
 </style>

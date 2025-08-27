@@ -10,6 +10,10 @@
 	const relativeTime = toTimeSincePublish(post.lastModified);
 </script>
 
+<svelte:head>
+	<title>{post.title}</title>
+</svelte:head>
+
 <Hero gradient="blog">
 	<h1>{post.title}</h1>
 	<p class="date">published {relativeTime}</p>
