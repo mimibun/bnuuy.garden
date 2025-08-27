@@ -109,7 +109,7 @@
 	}
 
 	article section {
-		width: 400px;
+		width: 390px;
 		flex-grow: 1;
 
 		padding: 1rem;
