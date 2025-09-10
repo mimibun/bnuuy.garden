@@ -35,7 +35,8 @@
 
 	:global(a) {
 		color: $mauve;
-
+		text-decoration: none;
+		
 		// ❣️ hey future mimi 🐰, in case youre looking for the :hover thing for the a-tag its in the hoverTransition-mixin here, yw :3 you look great btw uwu
 		@include hoverTransition();
 	}
