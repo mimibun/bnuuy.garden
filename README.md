@@ -1,38 +1,32 @@
-# sv
+# bnuuy.garden
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is the repo of (the frontend of) my first personal website. 
 
-## Creating a project
+## Why this project exists:
+* Create an online presence for myself
+* Learn Svelte/SvelteKit, Flask, SCSS and in general web-development
+* Learn to create something I will actually use/show people
+* Allow myself to make mistakes and let go of perfectionism
+* Learn how to structure a project
+* Allow me to do something creative
+* Be a little silly :3
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Backend?
 
-```bash
-# create a new project in the current directory
-npx sv create
+I'm using Flask as a simple backend that severes content (mainly text) as json to the frontend. 
 
-# create a new project in my-app
-npx sv create my-app
-```
+For the blog I'm doing the same, it converts .md files with YAML-frontmatter into the appropriate json. It converts the markdown to HTML and also generates slugs etc. 
 
-## Developing
+### Why Svelte/SvelteKit?
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+I have several project ideas that go beyond just CLI tools, and since I also like to think about the design of things, I needed to learn a frontend. This is where I got inspired by and followed the advice of [@Feuerhamster](https://lmke.dev/) and started to read the tutorial and documentation of Svelte/SvelteKit. Of course I could have picked other frameworks as well, but I needed to start somewhere, and this is where I started.  
 
-```bash
-npm run dev
+### Why Flask?
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Because I used it like a few times to toy around with, so I somewhat understood how it works.
 
-## Building
+## Special thanks:
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+* [@Feuerhamster](https://lmke.dev/) - I looked a lot at her website and learned a lot from her project
+* [@G-Ritter](https://github.com/G-Ritter/) - Answered so many of my questions and had the patience to explain web development concepts to me
+* [@orangecms](https://github.com/orangecms) - Helping me with nasty hick-ups that got me stuck and helping me with nginx :3
