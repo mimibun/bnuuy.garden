@@ -109,8 +109,12 @@
 	}
 
 	article section {
-		width: 390px;
+		@media only screen and (max-width: 813px) {
+			width: 100%;
+			padding: 0.5rem;
+		}
 		flex-grow: 1;
+		width: 390px;
 
 		padding: 1rem;
 	}

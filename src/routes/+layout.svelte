@@ -45,8 +45,12 @@
 		flex-direction: column;
 		align-items: center;
 
+		@media only screen and (max-width: 1200px) {
+			width: 100%;
+		}
+
 		flex-grow: 1;
 		margin: 0 1rem;
-		max-width: 1200px;
+		width: 1200px;
 	}
 </style>
