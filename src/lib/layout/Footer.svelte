@@ -29,7 +29,7 @@
 
 		@keyframes shake {
 			0% {
-				transform: translate(1px, 1px) rotate(0deg);
+				transform: translate(0px, 0px) rotate(0deg);
 			}
 			10% {
 				transform: translate(-1px, -2px) rotate(-1deg);
